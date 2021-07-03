@@ -1,0 +1,16 @@
+# Tank RTS To Do List
+
+## Unit
+  - Needs to have a type enum. Possible types can be: NONE = 0, ALLY = 1, ENEMY = 2
+  - Must be selectable and deselectable
+
+## Unit Selection
+  - Be able to select an deselect single or multiple friendly tanks.
+  - Ability to "ctrl + click" to deselect single units from a list of selected friendly tanks.
+
+## Unit AI
+  - Must be able to pathfind around obstacle to get to destination.
+  - Aware of dynamic objects such as other tanks, etc.
+  - Support formations
+  - Have a command tank which when selected shows a menu which contents such as: a formations sub menu which can be set and all tanks in that are part of that platoon will try and maintain.
+  
